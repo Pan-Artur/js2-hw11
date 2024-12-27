@@ -1,0 +1,74 @@
+.hour-timer {
+  border: 2px solid #000;
+  position: relative;
+}
+
+.time {
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 90px;
+  display: flex;
+}
+
+.message {
+  color: #fff;
+  opacity: 0;
+  z-index: 999;
+  background-color: #000c;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.message.show {
+  opacity: 1;
+  border: 2px solid #000;
+}
+
+.seconds-timer {
+  border: 2px solid #000;
+  margin-top: 20px;
+  position: relative;
+}
+
+#time {
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 90px;
+  transition: all .5s ease-in-out;
+  display: flex;
+}
+
+#time.warning {
+  color: red;
+  transform: scale(1.5);
+}
+
+#message {
+  color: #fff;
+  opacity: 0;
+  z-index: 999;
+  background-color: #000c;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#message.show {
+  opacity: 1;
+}
+/*# sourceMappingURL=index.61d3354a.css.map */
